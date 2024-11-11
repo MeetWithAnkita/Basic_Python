@@ -15,7 +15,6 @@ on the basis of a given base and the power to be raised.
 the cost of its painting on the basis of charge per square unit.
 9. To determine the area of a cone
 10. To determine the perimeter of a triangular plot
-1
 11. To determine the area and perimeter of a square.
 12. To determine the miles on the basis of given kilometers
 13. To determine the acceleration due to gravity on the basis of the
