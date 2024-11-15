@@ -1,0 +1,77 @@
+1. To determine the profit or loss on sale.
+
+2. To determine greater between two numbers.
+
+3. To determine the absolute difference between a given number and
+123 and if it is greater than 123 then print the triple of the given number.
+
+4. To validate a given date
+
+5. To determine whether a quadrilateral is a square, rhombus, parallelogram, square or irregular on the basis of only the lengths of all
+the sides and one internal angle.
+
+6. To print a currency conversion table from Pounds, Dollar, Euro to
+equivalent Indian Rupees.
+
+7. To print the number of days in each month of a given year
+
+8. To calculate commission of a salesman when the calculation of commission is based on the rules given below:
+(a) Nil, when the sales <10000 in region A
+(b) 6.5% of the sales if the sales <15000 in region B and <16000
+in region A
+(c) 8.5% plus Rs.1500, if the sales >=15000 but <25000 in region
+B and >=16000 but <35000,in region A.
+(d) 11% of the sales plus Rs.4500 for all regions for all other cases.
+
+9. To categorize a triangle on the basis of its three given angles. The
+triangle may be in an ‘invalid triangle’, ’Equiangular’, ‘ rightangle’, ‘acute angled’ or ‘obtuse angled’.
+
+10. To accept the lengths of three sides of a triangle to check whether
+the given lengths can be valid lengths of three sides of a triangle
+and to categorize the triangle as ‘Equilateral’ or ‘Isosceles’ or
+‘Scalene’ one.
+
+11. To compute the festival bonus of the employees on the basis of the
+basic pay and the designation as per the following rules:
+Basic Pay               Designation      Percentage of basic pay payable
+<40,000                 Manager          12% of the basic pay subject to minimum of Rs. 2500
+>=40,000                Manager          16% of the basic pay subject to maximum of Rs. 7500
+<20000                  Officer          14% of the basic pay subject to a minimum of Rs.2500 and a maximum of Rs.5000.
+For all others cases    Whatever         8.9% of basic pay
+
+12. For the first 75 calls, the charge is fixed and it is equal to Rs. 75;
+for the next 75 calls, the charge is calculated @Rs 0.75 per call; for
+the next 90 calls, the charge is Rs.0.65 per call and for the rest,
+if any, the rate is Rs.0.55 per call. It is required to determine the
+monthly bill of a subscriber.
+
+13. In a certain country, the difference between two consecutive gas
+meter readings gives the amount of gas consumed in cubic feet. It
+is then multiplied by a factor 1.475 to convert it into the number
+of therms used by the consumer, where therm is the unit of billing.
+The meter readings are collected at the end of each month. The
+following rate chart is then used by the gas company to calculate
+the bill amount of each consumer:
+No. of therms used                       Rate per therm
+     <=125                                   Rs.7.75
+  >125 but <=250                   Rs. 9.75 plus a surcharge of 1.25% over the calculated charge;
+      >250                         Rs. 13.00 plus a surcharge 0f 2.5% over the calculated charge.
+A meter rent of Rs.25 is also added to the gas charges of each
+consumer to determine the gas bill. If the gas meters display 8-digit
+readings, then develop a script in Python is required to determine
+the monthly gas bill of the consumers.
+
+14. In a certain area, the parking charge for cars is calculated according
+to the following rules: For the first 8.5 hours or part thereof, the
+rate is fixed and it is equal to Rs. 55; for the next every 2 hours
+or part thereof up to a maximum of 23 hours, the rate Rs. 13.75;
+beyond the 23 hours limit, the charge Rs. 5.50 for every minute.
+Develop a Python script to calculate the parking charge for the
+users of the area.
+
+15. Develop a Python script to determine the minimum number of 100
+rupee notes, 200 rupee notes, 500 rupee notes and 2000 rupee notes
+required to dispense a given sum of money.
+
+16. It is required to print the name of the starting day of any given
+year
