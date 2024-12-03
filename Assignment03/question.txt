@@ -1,0 +1,264 @@
+Develop Python scripts to solve following problems:
+1. To obtain the sum of the first n natural numbers for some given n
+without using any formula.
+
+2. To obtain all the whole numbers which are divisible by some given
+p but not by some other given q.
+
+3. To generate a table of any given number n.
+
+4. To obtain all the groups of three successive numbers within 1000
+that have the property that the square of the middle one is greater
+by unity than the product of the other two numbers. For example,
+18^2 =17*19+1
+
+5. To find out the series of five consecutive numbers within 1000,for
+which the sum of the squares of the first three is equal to the sum of
+the squares of the last two. For example, (−2)^2+(−1)^2+0^2 = 1^2+2^2
+
+6. To find out Pythagorean numbers x, y, z within 100 such that z^2 = x^2 + y^2 .
+
+7. To print the value of a given amount of currency value in words.
+
+8. To obtain the sum of the following series for some given values of x
+and n:
+                                    1
+                                1       1
+                            1       2       1        
+                        1       3       3       1
+                    1       4       6       4       1
+                1       5       10      10      5       1            
+               Figure 1: First Six rows of Pascal’s Triangle
+(a) x - x^3/3 + x^5/5 − x^7/7 ± · · · . . . . .....................up to n terms.
+(b) x^2/2 − x^4/4 + x^6/6 ± · · ·. . . . . . .......................up to n terms
+(c) x^1/1! − x^3/3! + x^5/5! ± · · ·. . . . . . .....................up to n terms
+(d) x^2/2! − x^4/4! + x^6/6! ± · · ·. . . . . . .....................up to n terms
+(e) x − [(x^3)/2] + [(3∗x^5)/(2∗4)] − [(3∗5∗x^7)/(2∗4∗6)] ± · · · . . up to n terms
+
+9. Twin prime numbers are primes that differ by 2(e.g. 3 and 5, 101
+and 103). To find out all twin primes within 10000.
+
+10. To find out the list of months with a Friday the 13th for any given
+year.
+<<<<<<<<<<<<<<<....>>>>>>>>>>>>>>>>>
+11. To draw a Pascal triangle based on given number of rows
+Hints for drawing the Pascal’s Triangle
+The first 6 rows of Pascal’s Triangle are shown in Figure-1:
+Let us learn how to Build the Pascal’s Triangle manually.
+• At the top center of a piece of paper let us write the number
+“1.”
+• On the next row we write two 1’s so that they form a triangle.
+• On each of the subsequent rows we start and end with 1’s and
+compute each interior term by adding the two numbers above
+it.
+This is illustrated below
+                1
+            1       1
+        1       2       1
+    1       3       3       1
+
+Figure 2: Illustration of forming intermediate terms of the Pascal’s Triangle
+
+12. A program is required which accepts two numbers then prints out
+a random number somewhere between those two numbers without
+using the built in random function.
+
+13. A program is required which will accept a date in either long hand
+or short hand (e.g. either 19/7/2019 or 19th July, 2019 ) with a view
+to determine if the given date is valid. e.g. 14/13/2019 is clearly
+not valid.
+
+14. To determine various types of numbers as defined below within a
+given range:
+(a) A Harshad number is a number that is divisible by the sum of
+its own digits. For example, 1729 is a Harshad number because
+1 + 7 + 2 + 9 = 19 and 1729 = 1991. Harshad numbers are
+also known as Niven numbers.
+(b) An Abundant number is a number that is smaller than the
+sum of its aliquot parts (Proper divisors). For example, twelve
+is the smallest abundant number, because, the sum of its aliquot
+parts is 1+2+3+4+6=16—-followed by 18, 20, 24 and 30.
+(c) A weird number is an abundant number that is not semiperfect; in other words, n is weird if the sum of its divisors is greater
+than n, but n is not equal to the sum of any subset of its divisors. The first few weird numbers are 70, 836, 4030, 5830, and
+7192.
+(d) Amicable numbers are pairs of numbers, also known as friendly
+numbers, each of whose aliquot parts add to give the other number. (An aliquot part is any divisor that doesn’t include the
+number itself).
+(e) An Automorphic number, also known as an automorph,
+is a number n whose square ends in n. For instance 5 is automorphic, because 5
+2 = 25, which ends in 5. A number n is
+called trimorphic if n
+3
+ends in n. For example 493
+, = 117649,
+is trimorphic. Not all trimorphic numbers are automorphic. A
+number n is called tri-automorphic if 3n
+2
+ends in n; for example
+667 is tri-automorphic because 3 × 6672
+, = 1334667, ends in
+667.
+(f) A Fermat number is a number defined by the formula Fn =
+2
+2
+n
++ 1 numbers, F0 = 3, F1 = 5, F2 = 17, F3 = 257, and F4
+= 65,537. It is required to test whether all the Fermat
+numbers are prime or not.
+(g) A Happy number is one which ultimately generates 1 through
+the iterative process of summing of the squares of the digits.For
+example,7 → (72
+) → 49 → (42 + 92
+) → 97 → (92 + 72
+) →
+130 → (12 + 32
+) → 10 → 1. So, 7 is a Happy number.But,
+20 is not a happy number, since,
+2
+2 + 02 =4
+4
+2 = 16
+1
+2 + 62 =37
+3
+2 + 72 =58
+5
+2 + 82 =89
+8
+2 + 92 =145
+1
+2 + 42 + 52 =40
+4
+2 + 02 =4(Reappears a number obtained earlier)
+(h) A special two-digit number is such that when the sum of its
+digits is added to the product of its digits, the result equals the
+original two-digit number. For example, for the number 59,Sum
+of the digits=5+9=14 and product of its digits=5*9=45 and
+hence total=14+45=59.
+(i) WAP to accept a number and then to check whether it is a perfect square or not. If it is a perfect square then show a message
+for that; if not, then find out the least number to be added to
+the number to make the given number a perfect square. For example, if the given number is 1950, then the least number to be
+added to the number to make it a perfect square is determined
+as follows: 452 - 1950=75.
+(j) A number is said to be a Niven number if it is divisible by
+the sum of its digits. For example,126 is a Niven number.
+(k) A number is said to be a Neon number if the sum of the digits
+of the square of the number equals the number. For example, 9
+is a Neon number.
+(l) A number is said to be an Automorphic number if the number is contained in the ending digits of its square. For example,
+25 is such a number because 252 =625 where 25 the original
+number is contained.
+(m) Two numbers are said to be co-prime if their HCF is one.
+(n) WAP to display the product of the successors of even digits of
+a given number.
+(o) A number is said to be a Pronic number if it a product of two
+consecutive integers. Example: 12, 20, 42 etc. such numbers
+are also known as Oblong numbers.
+(p) A prime number is said to a Twisted Prime, if the new
+number formed by reversing its digits is also a prime number.
+For example, 167 is a twisted prime because 761 is also prime.
+(q) A number is said to a Duck number if it contains a zero.
+(r) A number is said to be an Abundant number if the sum of its
+proper divisors is greater than the number itself. For example,
+12 is an abundant number.
+(s) A number is said to a Spy number if the sum of its digits
+equals the product of its digits. For example, 1124 is a Spy
+number.
+(t) A number is said to be a Harshad number, if it is divisible by
+the sum of its digits. For example, 132 is a Harshad number.
+(u) A number is said to be a Sunny number if the square root of its
+successor is a whole number.
+(v) Tribonacci numbers are a sequence of numbers similar to
+Fibonacci numbers except that such a number is formed by
+adding the three preceding numbers. For example, 1, 1, 2, 4,
+7,13, . . . . . . . . . ..are Tribonacci numbers.
+(w) The sum of given n terms for some given value of x(where there
+is x) is required for the following series:
+i. 1+ (1+2) +(1+2+3) + · · · +(1+2+3+· · ·n)
+ii. 1+(1*2) +(1*2*3)+· · ·+(1*2*3*· · · *n)
+iii. 1 + 1+2
+1∗2 +
+1+2+3
+1∗2∗3 + · · · +
+1+2+3+···+n
+1∗2∗3∗···∗n
+. . . up to n terms
+(x) A number is said to be a Multiple Harshed Number if a
+Harshed Number, when divided by the sum of its digits,
+produces another Harshed Number. For example, 6804 is
+a Multiple Harshed Number.
+(y) A number is said to be a Magic Number if the eventual sum
+of the digits of the number becomes 1. For example, 55 and 289
+are magic numbers because, for 55,5+5=10, 1+0=1, similarly
+for 289,2+8+9=19,1+9=10,1+0=1
+15. To determine various types of numbers as defined below within a
+given range:
+(a) A right-angled triangle of consecutive natural numbers from 1
+to n is called a Floyd’s triangle.
+(b) A hyperfactorial number is a number such as 108, which is
+equal to 3
+3 ×2
+2 ×1
+1
+. In general, the n
+th hyperfactorial H(n)
+is given by: H(n) = n
+n
+(n − 1)(n−1)
+· · · 3
+32
+21
+1
+(c) A Kaprekar number of d digits is defined as a number the
+square of which if separated into two parts of d and d / (d1) digits depending on the availability of digits, can regenerate
+the number by the sum of the two parts. For example: 9 is
+a Kaprekar number; because, 9
+2=81 and as 9 is a one-digit
+number, we separate the digits in the square in two parts each
+containing one digit i.e. 8 and 1. Again, 8+1=9, regenerates
+the number.
+(d) A vampire number is a natural number x that can be factorized as y × z in such a way that the number of occurrences of
+a particular digit in the representation of x in a given base (say
+10) appears the same number of times in the representations
+in that same base of y and z together. For example, 2187 is a
+vampire number since 2187 = 21 × 87 ; similarly 136948 is a
+vampire because 136948 = 146 × 938. Vampire numbers are a
+whimsical idea that was introduced by Clifford Pickover in
+1995.
+(e) A sublime number is a number such that both the sum of
+its divisors and the number of its divisors are perfect numbers.
+The smallest sublime number is 12. There are 6 divisors of 12
+– 1, 2, 3, 4, 6, and 12 – the sum of which is 28. Both 6 and 28
+are perfect. The second sublime number begins 60865..., ends
+...91264, and has a total of 76 digits! It is not known if there are
+larger even sublime numbers, nor if there are any odd sublime
+numbers.
+(f) A Smith number is a composite number, the sum of whose
+digits equals the sum of the digits of its prime factors. The
+name stems from a phone call in 1984 by the mathematician Albert Wilansky to his brother-in-law, called Smith, during which
+Wilansky noticed that the phone number, 4937775, obeyed the
+condition just mentioned. Specifically: 4937775 = 3 × 5 × 5 ×
+65837
+(g) A lucky number is a number in a sequence, first identified and
+named around 1955 by Stanislaw Ulam, that evades a particular
+type of number "sieve" (similar to the famous Sieve of Eratosthenes), which works as follows. Start with a list of integers,
+including 1, and cross out every second number: 2, 4, 6, 8, ...
+The second surviving integer is 3. Cross out every third number
+not yet eliminated. This removes 5, 11, 17, 23, ... The third surviving number from the left is 7; cross out every seventh integer
+not yet eliminated: 19, 39, ... Repeat this process indefinitely
+and the numbers that survive are the "lucky" ones:
+(h) A Pandigital number is an integer that contains each of the digits from 0 to 9 and whose leading digit is nonzero. The first
+few pandigital numbers are 1023456789, 1023456798, 1023456879,
+1023456897, and 1023456978. A ten-digit pandigital number is
+always divisible by 9. If zeros are excluded, the first few "zeroless" pandigital numbers are 123456789, 123456798, 123456879,
+123456897, 123456978, and 123456987, and the first few zeroless pandigital primes are 1123465789, 1123465879, 1123468597,
+1123469587, and 1123478659. The sum of the first 32423 (a
+palindromic number) consecutive primes is 5897230146, which
+is pandigital. No other palindromic number shares this property. Examples of palindromic numbers that are the product of
+pandigital numbers are 2 970 408 257 528 040 792 (= 1 023 687
+954 × 2 901 673 548) and 5 550 518 471 748 150 555 (= 1 023 746
+895 × 5 421 768 309), both found in 2001. A pandigital product
+is a product in which the digits of the multiplicand, multiplier,
+and product, taken together, form a pandigital number
+
+                
