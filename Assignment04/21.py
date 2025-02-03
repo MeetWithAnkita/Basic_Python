@@ -12,5 +12,5 @@ def find_sunny_numbers(limit):
     return sunny_numbers
 limit = 2000
 sunny_numbers = find_sunny_numbers(limit)
-print(f"Sunny numbers within {limit}:")
+print(f"Sunny numbers within... {limit}:")
 print(sunny_numbers)
