@@ -1,0 +1,139 @@
+Develop Python scripts to solve following problems:
+1. To obtain the sum of the squares of first n natural numbers for some
+given n without using any formula.
+2. To generate a table of any given number n.
+3. To find out the series of five consecutive numbers within 1000,for
+which the sum of the squares of the first three is equal to the sum of
+the squares of the last two. For example, (−2)2+(−1)2+02 = 12+22
+4. To find out Pythagorean numbers x, y, z within 100 such that z
+2 =
+x
+2 + y
+2
+.
+5. To obtain the sum of the following series for some given values of x
+and n:
+(a) x
+2/2 − x
+4/4 + x
+6/6 ± · · ·. . . . . . .. up to n terms
+(b) x
+2/2! − x
+4/4! + x
+6/6! ± · · ·. . . . . . .. up to n terms
+(c) 1 + 1
+2
+x −
+1
+2.4
+x
+2 +
+1.3
+2.4.6
+x
+3 − + · · · upto n terms
+6. To find out the list of months with a Saturday the 13th for any given
+year.
+7. To draw a Pascal triangle based on given number of rows
+1
+Figure 1: Illustration of forming intermediate terms of the Pascal’s Triangle
+Let us learn how to Build the Pascal’s Triangle manually.
+• At the top center of a piece of paper let us write the number
+“1.”
+• On the next row we write two 1’s so that they form a triangle.
+• On each of the subsequent rows we start and end with 1’s and
+compute each interior term by adding the two numbers above
+it.
+This is illustrated above:
+8. A program is required which will accept a date in either long hand
+or short hand (e.g. either 19/7/2019 or 19th July, 2019 ) with a view
+to determine if the given date is valid. e.g. 14/13/2019 is clearly
+not valid.
+9. An Abundant number is a number that is smaller than the sum
+of its aliquot parts (Proper divisors). For example, twelve is the
+smallest abundant number, because, the sum of its aliquot parts is
+1+2+3+4+6=16—-followed by 18, 20, 24 and 30.Develop a Python
+script to determine and print all Abundant numbers within 500.
+10. A weird number is an abundant number that is not semiperfect;
+in other words, n is weird if the sum of its divisors is greater than
+n, but n is not equal to the sum of any subset of its divisors. The
+first few weird numbers are 70, 836, 4030, 5830, and 7192.Develop
+a Python script to determine and print all weird numbers within
+1000
+11. An Automorphic number also known as an automorph, is a
+number n whose square ends in n. For instance 5 is automorphic,
+because 5
+2 = 25, which ends in 5. A number n is called trimorphic
+if n
+3
+ends in n. For example 493
+, = 117649, is trimorphic. Not all
+trimorphic numbers are automorphic. A number n is called triautomorphic if 3n
+2
+ends in n; for example 667 is tri-automorphic
+because 3 × 6672
+, = 1334667, ends in 667. Develop a Python script
+to determine and print all Automorphic numberswithin 1000
+12. A special two-digit number is such that when the sum of its
+digits is added to the product of its digits, the result equals the
+original two-digit number. For example, for the number 59,Sum
+of the digits=5+9=14 and product of its digits=5*9=45 and hence
+total=14+45=59. Determine all such numbers within 500.
+13. A number is said to be a Niven number if it is divisible by the
+sum of its digits. For example,126 is a Niven number. Develop a
+Python script to determine and print all Niven numbers within
+1000
+14. A number is said to be a Pronic number if it a product of two
+consecutive integers. Example: 12, 20, 42 etc.
+Develop a python script to obtain all Pronic number within 200.
+15. A prime number is said to be a Twisted Prime, if the new
+number formed by reversing its digits is also a prime number. For
+example, 167 is a twisted prime because 761 is also prime.Develop
+a Python script to determine and print all twisted prime numbers
+within 1000
+16. Tribonacci numbers are a sequence of numbers similar to Fibonacci numbers except that such a number is formed by adding
+the three preceding numbers. For example, 1, 1, 2, 4, 7,13, . . . . . . . . . ..are
+Tribonacci numbers. Develop a python script to obtain all Tribonacci numbers within a given range.
+17. The sum of given n terms for some given value of x(where there is
+x) is required for the following series:
+3
+(a) 1+ (1+2) +(1+2+3) + · · · +(1+2+3+· · ·n)
+(b) 1+(1*2) +(1*2*3)+· · ·+(1*2*3*· · · *n)
+(c) 1 + 1+2
+1∗2 +
+1+2+3
+1∗2∗3 + · · · +
+1+2+3+···+n
+1∗2∗3∗···∗n
+. . . up to n terms
+18. A Harshad number is a number that is divisible by the sum of
+its own digits. For example, 1729 is a Harshad number because
+1 + 7 + 2 + 9 = 19 and 1729 = 1991. A number is said to be
+a Multiple Harshed Number if a Harshed Number, when
+divided by the sum of its digits, produces another Harshed Number. For example, 6804 is a Multiple Harshed Number.
+Develop a Python script to determine whether a given number is a
+Multiple Harshed Number or not.
+19. A number is said to be a Magic Number if the eventual sum
+of the digits of the number becomes 1. For example, 55 and 289
+are magic numbers because, for 55,5+5=10, 1+0=1, similarly for
+289,2+8+9=19,1+9=10,1+0=1
+Develop a Python script to determine all Magic Numbers within
+1000.
+20. A hyperfactorial number is a number such as 108, which is equal
+to 3
+3 × 2
+2 × 1
+1
+. In general, the n
+th hyperfactorial H(n) is given
+by: H(n) = n
+n
+(n − 1)(n−1)
+· · · 3
+32
+21
+1 Develop a Python script to
+determine all hyperfactorial number within 1000.
+21. A number is said to be a Sunny number if the square root of its
+successor is a whole number.
+Develop an R script to obtain all Sunny numbers within 2000
